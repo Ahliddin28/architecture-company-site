@@ -1,0 +1,113 @@
+body{
+  overflow: hidden;
+}
+@media(max-width:500px) {
+  .no{
+    display: none;
+  }
+  .bo2,.bo3,.b3{
+    font-size: 5px;
+  }
+  #fl2{
+    margin-top: -50px;
+    margin-left: 20px;
+  }
+  #flex #fl{
+    width:130px;
+   }
+   
+}
+.p{
+  display: flex;
+}
+.bo,.bo2,.bo3{
+  margin-left: 50%;
+  padding-top: 20%;
+  font-size: 20px;
+}
+.fourth-page{
+  background-image: url(bg.png);
+  width: 100%;
+  background-size: cover;
+  height:100%;
+  background-position: center;
+}
+.il{
+  width: 75px;
+  height: 75px;
+  background-color: silver;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 50%;
+}
+.seventh-page{
+  background-color: #403E3B;
+  padding: 100px 2%;
+}
+.sixth-page{
+  height: 100%;
+  background-size: cover;
+  background-image: url(bg2.png);
+  width: 100%;
+  background-position: center;
+}
+
+.eightth-page{
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+ background-image: url(bg3.png);
+}
+.b{
+  z-index: -1;
+}
+.mt{
+  margin-top: -100%;
+  margin-left: 10%;
+  text-align: left;
+}
+#bb{
+  margin-top: 60%;
+  margin-left: 30%;
+}
+#fl{
+  display: block;
+}
+.eleventh-page{
+  width: 100%;
+}
+#ct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fl2{
+  display: flex;
+ justify-content: flex-end;
+}
+#flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#flex #fl{
+ width:150px;
+}
+.navbar .navbar-item:hover{
+  background:none;
+  color: brown;
+}
+.navbar .navbar-item .buttons .button:hover{
+  background: brown;
+}
+#hover{
+  transition: all 0.5s ease;
+  color: #403E3B;
+}
+#hover:hover{
+
+  margin-left: 10px;
+}
